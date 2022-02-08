@@ -11,6 +11,7 @@ public class Solution101 {
         return isSame(root.left, root.right);
     }
 
+    // 如果左右子树都为空，则为对称，一个子树为空，另一个子树不为空，则不是对称，都不为空都话再对左子树的右子树和右子树的左子树进行比较
     public boolean isSame(TreeNode p, TreeNode q) {
         if (p == null && q == null) {
             return true;

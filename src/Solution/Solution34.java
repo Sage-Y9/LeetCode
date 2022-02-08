@@ -1,3 +1,5 @@
+package Solution;
+
 import java.util.Arrays;
 
 /**
@@ -32,7 +34,7 @@ public class Solution34 {
     }
 
     public static void main(String[] args) {
-        int[] nums = new int[]{5,7,7,8,8,10};
+        int[] nums = new int[]{5, 7, 7, 8, 8, 10};
         System.out.println(Arrays.toString(searchRange(nums, 8)));
     }
 }

@@ -1,3 +1,5 @@
+package Solution;
+
 public class Solution27 {
     public int removeElement(int[] nums, int val) {
         int i = 0;

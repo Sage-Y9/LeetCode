@@ -1,3 +1,5 @@
+package Solution;
+
 /**
  * @author yangjk
  * @date 2022/2/7 17:23
